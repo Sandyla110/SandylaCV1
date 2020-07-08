@@ -1,0 +1,91 @@
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-color: lime; /* Le fond de la page sera noir */
+    background-image: url("anonymous");
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    background-position: top right;
+    color: black; /* Le texte de la page sera blanc */
+
+}
+
+.intro
+{
+    color: black;
+    font-size: large;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+p{
+
+	text-align: center;
+
+
+}
+h1
+{
+    color: red;
+    font-size: 60px;
+    font-family: Impact;
+    text-align: center;
+    border: 3px red outset;
+    box-shadow: 6px 6px 0px black;
+}
+em
+{
+color: green;
+text-decoration: blink;
+
+}
+
+a[title="Cliquez ici"]
+{
+	  color: red;
+	  
+}
+.imageflottante
+{
+    float: left;
+}
+
+.fin
+{
+    color: black;
+    font-size: large;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+section
+{
+
+    color: black;
+    font-size: large;
+    text-align: right;
+    text-shadow: 2px 2px 4px red;
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin-left: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 2px solid black;
+    box-shadow: 6px 6px 0px red;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    margin-left: auto;
+    font-size: large;
+    width: 350px
+
+}
+td,th
+{
+
+    border: 2px solid black;
+    text-align: justify;
+    padding: 12px;
+}
